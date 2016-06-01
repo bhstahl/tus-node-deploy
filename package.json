@@ -1,0 +1,21 @@
+{
+  "name": "tus-node-deploy",
+  "version": "0.0.1",
+  "description": "A node.js tus upload server.",
+  "main": "node server.js",
+  "engines": {
+    "node": "4.4.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.vimeows.com:bhstahl/tus-node-deploy.git"
+  },
+  "author": "bhstahl@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "tus-node-server": "0.0.5"
+  }
+}
